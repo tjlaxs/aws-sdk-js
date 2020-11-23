@@ -3699,7 +3699,7 @@
         },
         "Value": {
           "shape": "FilterRuleValue",
-          "documentation": "<p>The value that the filter searches for in object key names.</p>"
+          "documentation": "<p>The value that the filter searches for in object key names. This value should be URL encoded.</p>"
         }
       },
       "documentation": "<p>Specifies the Amazon S3 object key name to filter on and whether to filter on the suffix or prefix of the key name.</p>"
